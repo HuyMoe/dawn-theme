@@ -1,0 +1,19 @@
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1360px;
+    h1 {
+        font-size: 4.9rem;
+        font-weight: 500;
+    }
+}
+.form-faq {
+    padding: 35px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    border-radius: 10px;
+    h2 {
+        font-size: 1.7rem;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+}

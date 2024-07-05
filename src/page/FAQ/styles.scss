@@ -1,0 +1,35 @@
+.accordion {
+    .ant-collapse-header {
+        padding: 19px 20px !important;
+        align-items: center !important;
+    }
+    .ant-collapse-content-box {
+        padding: 25px 48px !important;
+    }
+    .ant-collapse-header-text {
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+    .ant-collapse-content-box {
+        p {
+            font-size: 1.7rem;
+            font-weight: 400;
+        }
+    }
+}
+.btn-submit-faq {
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 138px;
+    padding: 12px 20px;
+    height: 100%;
+    border-radius: 999px;
+    margin-right: 10px;
+    background-color: #000;
+    color: #fff;
+    &:hover {
+        background-color: #000 !important;
+        color: #fff !important;
+        border-color: transparent !important;
+    }
+}

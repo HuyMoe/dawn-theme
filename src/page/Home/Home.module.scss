@@ -1,0 +1,34 @@
+.wrapper {
+}
+.banner {
+    background-color: #e1e0d7;
+}
+.banner-2 {
+    background-color: #e7e7e7;
+}
+.banner,
+.banner-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .banner-img {
+        width: 40%;
+        height: 40%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .content-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        h2 {
+            font-size: 4.9rem;
+            font-weight: 500;
+        }
+    }
+}

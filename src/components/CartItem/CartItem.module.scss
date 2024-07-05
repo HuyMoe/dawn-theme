@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    padding: 16px;
+}
+.product-img {
+    width: 98px;
+    height: 118px;
+    img {
+        border: 1px solid rgba(29, 29, 29, 0.3);
+        border-radius: 10px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+.product-info {
+    margin-left: 20px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    .quantity {
+        color: rgba(29, 29, 29, 0.3);
+        font-size: 1.4rem;
+    }
+    .control {
+        display: flex;
+        margin-top: 8px;
+    }
+}
+
+.qty-selecter {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.btn-qty {
+    border: 1px solid rgba(29, 29, 29, 0.3);
+    border-radius: 100%;
+    width: 28px;
+    height: 28px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+.remove {
+    font-size: 1.2rem;
+    margin-left: 12px;
+    color: #737373;
+}

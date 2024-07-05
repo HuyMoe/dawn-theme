@@ -1,0 +1,26 @@
+.login-btn,
+.cart-btn {
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 138px;
+    padding: 12px 20px;
+    height: 100%;
+    border-radius: 999px;
+    margin-right: 10px;
+}
+.login-btn {
+    &:hover {
+        background-color: #000 !important;
+        color: #fff !important;
+        border-color: #000 !important;
+    }
+}
+.cart-btn {
+    background-color: #000;
+    color: #fff;
+    &:hover {
+        background-color: #000 !important;
+        color: #fff !important;
+        border-color: transparent !important;
+    }
+}

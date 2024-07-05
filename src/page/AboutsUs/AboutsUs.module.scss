@@ -1,0 +1,53 @@
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1360px;
+}
+.title {
+    font-size: 4.9rem;
+    font-weight: 500;
+    padding: 0 40px;
+}
+.description {
+    border-top: 1px solid rgba(22, 24, 35, 0.12);
+    border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+    padding: 80px 16px;
+
+    h3 {
+        font-size: 3.7rem;
+        font-weight: 500;
+        width: 80%;
+        padding: 16px 0;
+    }
+    p {
+        font-size: 1.7rem;
+        font-weight: 400;
+        width: 80%;
+        padding: 16px 0;
+    }
+}
+.content {
+    @apply grid grid-cols-2 gap-4;
+    border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+}
+.text {
+    padding: 80px 16px;
+    h2 {
+        font-size: 4.9rem;
+        font-weight: 500;
+    }
+    p {
+        font-size: 1.7rem;
+        font-weight: 400;
+        padding: 16px 0;
+    }
+}
+.image {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    img {
+        height: 100%;
+    }
+}

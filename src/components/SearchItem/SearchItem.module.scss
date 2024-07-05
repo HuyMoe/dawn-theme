@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    padding: 9px 16px;
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.06);
+    }
+}
+.product-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.product-info {
+    flex: 1;
+    margin-left: 12px;
+}
+.product-description {
+    font-size: 1.4rem;
+    color: #7e7e7e;
+}
